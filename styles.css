@@ -1,0 +1,329 @@
+/* Counselor styles ... */
+
+.counselor-container {
+    display: flex;
+}
+
+.student-list {
+    width: 200px;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+}
+
+.student-list-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.student-list-item:hover {
+    background-color: #f5f5f5;
+}
+
+.chat-window {
+    flex: 1;
+    padding: 20px;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.student-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.treat-button {
+    background-color: #e81a1a;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.chat-messages {
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-bottom: 15px;
+}
+
+.message p {
+    padding: 10px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.input-container button {
+    padding: 10px 15px;
+    background-color: #da1f1f;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+/* Add this CSS for the student list */
+
+.student-list-container {
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+}
+
+.student-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.student-list-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.student-list-item:hover {
+    background-color: #f5f5f5;
+}
+
+.active-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/* Add this CSS for the chat container */
+
+.counselor-container {
+    display: flex;
+}
+
+.chat-container {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Rest of your existing styles */
+.in-chat-indicator {
+    font-size: 18px;
+    margin-left: 5px;
+}
+/* Add this CSS for counselor messages */
+.message p.counselor {
+    color: #ec280e; /* Set the color for counselor messages */
+    /* Add any other styles for counselor messages */
+}
+/* Add this CSS for the student list */
+
+.student-list-container {
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+}
+
+.student-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.student-list-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.student-list-item:hover {
+    background-color: #f5f5f5;
+}
+
+.active-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #fd1f1f;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.unread-marker {
+    color: #e62121;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/* Add this CSS for the chat container */
+
+.counselor-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.chat-container {
+    flex: 1;
+    background-color: #fafafa;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.student-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.in-chat-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #e32020;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.counselor-chat-messages {
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.input-container button {
+    padding: 10px 15px;
+    background-color: #e21c1c;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Add this CSS for the overall page layout */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Rest of your existing styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide body overflow to prevent scrollbars */
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the video behind other elements */
+    object-fit: cover;
+}
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* To place it behind other elements */
+}
+
+.background-video iframe {
+    width: 100vw;
+    height: 56.25vw; /* 16:9 aspect ratio, adjust as needed */
+    transform: scale(3); /* Adjust the scale factor as needed for zooming */
+    transform-origin: 0 0; /* Set the transform origin to top-left */
+}
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo-container {
+    margin-top: 20px; /* Adjust the margin as needed */
+    position: relative;
+    z-index: 1; /* Set a higher z-index to bring it above other elements */
+}
+
+.logo-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Counselor styles */
+.counselor-container {
+    display: flex;
+}
+
+.student-list {
+    width: 400px;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+}
+
+/* ... (Rest of your existing styles) */
